@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+@IMPORT "common.css";
+/*index*/
+#index-tab{width: 60%; margin: 0 auto; text-align: center;}
+#index-tab>tr{border: 1px solid black;}
+.index-ul{list-style-type:none; text-align: center; width: 150px;}
+.index-ul>li{border: 1px solid black;}
+.index-ul>li>a{text-decoration: none;}
+#index-tab-tr>td{border: 1px solid black; width: 30%; text-align: center;}
+/*member*/
+.mem-div-width{width: 20%;}
+/*member submit*/
+.submit-pink{background-color: pink; width:125px;}
+.submit-blue{background-color: skyblue; width:125px;}
+/*member span*/
+.login-span{display: inline-block; width: 80px}
+.join-span{display: inline-block; width: 86px}
