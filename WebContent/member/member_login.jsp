@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!doctype html>
+<html lang="ko">
 <head>
-<meta charset="UTF-8">
+	<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ADMIN LOGIN</title>
 <link rel="stylesheet" href="../css/member.css" />
@@ -10,10 +11,11 @@
 <body>
 <!-- 로그인 화면 -->
 <div id="wrapper" class="gms-witdh-100">
+<header>
 <h1 class="gms-h1">ADMIN LOGIN</h1>
-<hr />
-<br />
-	<div id="image" class="gms-image"><a href="../index.html"><img src="../img/login.JPG" alt="" /></a></div><br />
+</header>
+<hr /><br />
+	<div id="image" class="gms-image"><a href="../index.jsp"><img src="../img/login.JPG" alt="" /></a></div><br />
 	<div id="container" class="mem-div-width">
 		<form id="login_form" action="">
 		<fieldset>

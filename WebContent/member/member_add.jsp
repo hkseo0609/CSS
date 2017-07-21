@@ -1,17 +1,20 @@
-<!DOCTYPE html>
-<html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!doctype html>
+<html lang="ko">
 <head>
-<meta charset="UTF-8">
+	<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MEMBER ADD</title>
 <link rel="stylesheet" href="../css/member.css" />
 </head>
 <body>
 	<div id="wrapper">
+	<header>
 	<h1 class="gms-h1">MEMBER ADD</h1>
+	</header>
 	<hr /><br />
-	<div id="image" class="gms-image"><a href="../index.html"><img src="../img/join.jpg" alt=""/></a></div><br />
-	<div id="container" class="mem-div-width">
+	<div id="image" class="gms-image"><a href="../index.jsp"><img src="../img/join.jpg" alt=""/></a></div><br />
+	<div id="container">
 		<form id="join_form" action="">
 			<fieldset>
 			<legend>회원가입</legend>
